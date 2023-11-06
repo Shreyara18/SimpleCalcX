@@ -1,0 +1,92 @@
+body {
+    background: #647299;
+    margin: 0;
+    padding: 0;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.heading {
+    color: #FFFFFF;
+    font-family: Inter;
+    margin-right: 400px;
+    font-family: Inter;
+font-size: 28px;
+font-weight: 800;
+line-height: 34px;
+letter-spacing: 0em;
+}
+
+.display {
+    width: 448px;
+    height: 100px;
+    background-color: rgba(24, 31, 50, 1);
+    font-family: Segoe UI;
+    font-size: 53px;
+    font-weight: 900;
+    line-height: 74px;
+    letter-spacing: 0em;
+    border: none;
+    color: #FFFFFF;
+    text-align: right;
+    border-radius: 12px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 5px;
+}
+
+
+.button-row {
+    width: 400px;
+    height: 350px;
+    display: grid;
+    grid-template-columns: repeat(4, 75px);
+    grid-gap: 30px;
+    grid-row-gap: 0px;
+    margin-top: 20px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    background-color: #252D44;
+    border-radius: 12px;
+    padding: 30px;
+}
+
+button {
+    width: 90px;
+    height: 50px;
+    background-color: #4a4a4a;
+    color: #3B4664;
+    border: none;
+    cursor: pointer;
+    border-radius: 12px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    background: #EAE3DB;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+#ActionBtn {
+    background: #647299;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.Result {
+    background: #D13F30;
+    color: #FFFFFF;
+    grid-column: span 2;
+    width: 197px;
+}
+
+.Reset {
+    grid-column: span 2;
+    width: 197px;
+}
