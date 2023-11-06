@@ -1,3 +1,5 @@
+LINK: https://simple-calc-x.vercel.app/
+
 # SimpleCalcX
 
 A simple calculator web application built using HTML, CSS, and JavaScript. This project is a basic calculator that performs arithmetic operations such as addition, subtraction, multiplication, and division.
